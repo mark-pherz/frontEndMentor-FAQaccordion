@@ -51,7 +51,7 @@ body {
 }
 
 .faq span {
-  font-family: bold;
+  font-family: bold sans-serif;
   font-size: 3em;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .question {
-  font-family: regular;
+  font-family: regular sans-serif;
   font-size: 0.9em;
   letter-spacing: -1px;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .answer {
-  font-family: regular;
+  font-family: regular sans-serif;
   color: grey;
   font-size: 0.8em;
   line-height: 1.25em;
