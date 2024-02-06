@@ -1,0 +1,2 @@
+# frontEndMentor-FAQaccordion
+training 
