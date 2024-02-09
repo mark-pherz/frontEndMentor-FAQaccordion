@@ -1,16 +1,19 @@
 @font-face {
-  font-family: regular;
+  font-family: "regular";
   src: url("./assets/fonts/static/WorkSans-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
-  font-family: semibold;
+  font-family: "semibold";
   src: url("./assets/fonts/static/WorkSans-SemiBold.ttf");
+  font-display: swap;
 }
 
 @font-face {
-  font-family: bold;
+  font-family: "bold";
   src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+  font-display: swap;
 }
 
 body {
@@ -27,6 +30,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .main-card {
@@ -51,7 +56,7 @@ body {
 }
 
 .faq span {
-  font-family: bold sans-serif;
+  font-family: "bold", sans-serif;
   font-size: 3em;
 }
 
@@ -71,9 +76,8 @@ body {
 }
 
 .question {
-  font-family: regular sans-serif;
+  font-family: "regular" sans-serif;
   font-size: 0.9em;
-  letter-spacing: -1px;
 }
 
 .question:hover {
@@ -91,7 +95,7 @@ body {
 }
 
 .answer {
-  font-family: regular sans-serif;
+  font-family: "regular";
   color: grey;
   font-size: 0.8em;
   line-height: 1.25em;
